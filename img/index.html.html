@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LM Leão Construtora | Avaré - SP</title>
+    <meta name="description" content="Construtora especializada em chalés de alto padrão, Villa Aconchegue-se e sistemas construtivos modernos em Avaré-SP.">
+    <style>
+        :root {
+            --primary: #FFD700;      /* Amarelo principal */
+            --secondary: #FFEA00;    /* Amarelo claro */
+            --dark: #000000;         /* Preto */
+            --dark-gray: #111111;
+            --light-gray: #222222;
+            --text: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: var(--dark-gray);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: var(--dark);
+            text-align: center;
+            padding: 40px 20px 30px;
+            border-bottom: 6px solid var(--primary);
+        }
+        .logo {
+            max-width: 320px;
+            height: auto;
+            margin: 0 auto 15px;
+            display: block;
+        }
+        nav {
+            background: var(--dark);
+            padding: 1.2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 4px solid var(--primary);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin: 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.25rem;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: white;
+            text-shadow: 0 0 12px var(--primary);
+        }
+        section {
+            padding: 80px 20px;
+            max-width: 1400px;
+            margin: auto;
+        }
+        h2 {
+            color: var(--primary);
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 2.5rem;
+            text-shadow: 2px 2px 8px #000;
+        }
+        .intro {
+            text-align: center;
+            font-size: 1.25rem;
+            margin-bottom: 3rem;
+            color: #ddd;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 2.2rem;
+        }
+        .video-container {
+            aspect-ratio: 9/16;
+            overflow: hidden;
+            border-radius: 16px;
+            box-shadow: 0 12px 30px rgba(255,215,0,0.25);
+            border: 3px solid var(--primary);
+        }
+        .social {
+            text-align: center;
+            margin: 4rem 0 2rem;
+            font-size: 1.5rem;
+        }
+        .social a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social a:hover {
+            color: white;
+            text-shadow: 0 0 15px var(--primary);
+        }
+        .sistemas {
+            background: var(--light-gray);
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+        }
+        .sistemas ul {
+            list-style: none;
+            max-width: 800px;
+            margin: 2rem auto;
+        }
+        .sistemas li {
+            margin: 1.5rem 0;
+            font-size: 1.2rem;
+        }
+        .sistemas li strong {
+            color: var(--primary);
+        }
+        footer {
+            background: var(--dark);
+            color: var(--primary);
+            text-align: center;
+            padding: 3rem 1rem;
+            border-top: 5px solid var(--primary);
+        }
+        @media (max-width: 768px) {
+            nav ul { gap: 1.5rem; flex-direction: column; }
+            .logo { max-width: 240px; }
+            h2 { font-size: 2.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+    <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#obras">Obras e Projetos</a></li>
+        <li><a href="#sistemas">Sistemas Construtivos</a></li>
+        <li><a href="#contato">Contatos</a></li>
+    </ul>
+</nav>
+
+<header>
+    <img src="img/logo.jpg.jpg" alt="LM Leão Construtora" class="logo" alt="logo lmleao_construtora" title="logo lmleao_construtora">
+</header>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p class="intro">
+            A <strong>LM Leão Construtora</strong> atua desde 2012 na região de Avaré-SP, especializada em construções de alto padrão, chalés, reformas e projetos personalizados.<br>
+            Seguimos as tendências modernas da construção civil, oferecendo soluções em diferentes sistemas construtivos com qualidade, prazo e acabamento impecável.
+        </p>
+    </section>
+
+    <section id="obras">
+        <h2>Obras e Projetos</h2>
+        <p class="intro">
+            Confira os principais projetos em andamento e concluídos. Acompanhe o dia a dia das obras, tours pelos chalés e detalhes da Villa Aconchegue-se diretamente no nosso Instagram @lmleao_construtora.
+        </p>
+
+        <div class="galeria">
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DCz8ab_OQtt/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DRKs_dnj6h-/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DTswpmbEZC-/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DMde3C-vOuo/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DTd4gFWDwlm/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DPPGI0qERyZ/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DSpm1NVEeXf/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.instagram.com/reel/DO6sqQGDwDy/embed" width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+        </div>
+
+        <div class="social">
+            <p><strong>Veja mais obras e atualizações em tempo real:</strong></p>
+            <a href="https://www.instagram.com/lmleao_construtora" target="_blank">@lmleao_construtora</a>
+        </div>
+    </section>
+
+    <section id="sistemas">
+        <h2>Sistemas Construtivos</h2>
+        <p class="intro">
+            Atuamos com diferentes sistemas construtivos, sempre priorizando qualidade, durabilidade, eficiência térmica/acústica e rapidez na execução.
+        </p>
+
+        <div class="sistemas">
+            <ul>
+                <li><strong>Alvenaria Convencional</strong> – Método tradicional e robusto, ideal para projetos de alto padrão com acabamentos personalizados e longa durabilidade.</li>
+                <li><strong>Steel Frame</strong> – Sistema leve e metálico, com excelente desempenho térmico, rapidez na montagem e grande flexibilidade arquitetônica.</li>
+                <li><strong>ICF (Insulated Concrete Forms)</strong> – Blocos de EPS com concreto armado no interior, proporcionando isolamento térmico e acústico superior, alta resistência e economia de energia.</li>
+            </ul>
+            <p class="intro" style="margin-top: 3rem;">
+                Cada sistema é escolhido de acordo com as necessidades do cliente, localização e objetivos do projeto, sempre com foco em conforto, sustentabilidade e excelência no resultado final.
+            </p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contatos</h2>
+        <p class="intro">
+            Solicite seu orçamento sem compromisso. Estamos prontos para transformar seu projeto em realidade!
+        </p>
+        <p style="text-align: center; font-size: 1.3rem;">
+            <strong>Instagram (principal):</strong> <a href="https://www.instagram.com/lmleao_construtora" style="color: var(--primary);">@lmleao_construtora</a><br><br>
+            <strong>Email:</strong> lmleaoconstrutora@bol.com.br<br><br>
+            <strong>Endereço:</strong> Alameda Scorpius, 36 - Costa Azul III, Avaré - SP, CEP 18703-894<br><br>
+            <strong>WhatsApp / Telefone:</strong> (14)99694-7551)
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 LM Leão Construtora | Avaré - SP</p>
+        <p>CNPJ: 15.757.876/0001-54</p>
+    </footer>
+
+</body>
+</html>
